@@ -11,11 +11,11 @@ The code structure is largely borrowed from https://github.com/jwyang/faster-rcn
 To use the code, the SAR & GIS data are to be concatenated and stored in the VOC format. 
 
 Train / Test: 
-
+```
 python train.py --dataset pascal_voc --net res101 --bs $BATCH_SIZE --nw $WORKER_NUMBE --cuda --s $SESSION
 
 python test.py --dataset pascal_voc --net res101  --checksession $SESSION --checkepoch $EPOCH --checkpoint $CHECKPOINT --cuda
-
+```
 ## Citation
 
 If you find the repo useful, please cite the following paper:
