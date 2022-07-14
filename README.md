@@ -6,9 +6,7 @@ This repository contains the codes for [Large-scale building height retrieval fr
 
 ## Code 
 
-The code structure is largely borrowed from https://github.com/jwyang/faster-rcnn.pytorch. Please follow README.md in the above link for the environment and dependencies.  
-
-To use the code, the SAR & GIS data are to be concatenated and stored in the VOC format. 
+The code structure is largely borrowed from https://github.com/jwyang/faster-rcnn.pytorch. Please follow README.md in the above link for the environment and dependencies. To use the code, the SAR & GIS data are to be concatenated and stored in the VOC format. 
 
 Train / Test: 
 ```
